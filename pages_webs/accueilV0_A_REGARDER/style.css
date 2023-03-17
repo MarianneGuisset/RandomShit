@@ -1,0 +1,46 @@
+body {
+    background-color: #060522;
+    color: white;
+    overflow: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input[type="login"], input[type="password"], input[type="submit"] {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #13131a;
+
+    font-family: monospace;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="login"], input[type="password"]{
+    color: #0b795a;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    color: white;
+  }
+
+#background1 {
+    display: flex;
+    color: white; /* Changez la couleur de texte à votre goût */
+    font-family: monospace; /* Changez la police de caractères à votre goût */
+    white-space: pre-wrap; /* Permet de conserver les espaces et les sauts de ligne */
+    padding: 20px; /* Ajoutez de la marge intérieure pour éviter que le texte ne soit collé aux bords */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    font-size: 7px;
+    float: left;
+    justify-content: flex-start;
+}
