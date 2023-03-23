@@ -9,12 +9,20 @@
             background-color: #060522;
             color: white;
             overflow: hidden;
+            margin: 0;
+        }
+
+        #bandeauHaut {
+            display: inline-block;
+            background-color: #1D1F28;
+            width: 100%;
+            height: 40px;
         }
 
         #bandeauGauche {
-
-            height: 100vmax;
-            background-color: rgb(8, 8, 14);
+            
+            height: 1800px;
+            background-color: #1D1F28;
             width: 160px;
             
         }
@@ -35,17 +43,30 @@
             color: white;
             text-decoration: none;
             font-size: 20px;
-            margin-left: 13%;
-            margin-top: 60x;
+            margin-left: 18%;
+            margin-top: 25px;
             margin-bottom: 40px;
 
         }
 
-        #selectionPage a #Evenement {
+        #quitter {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
 
-            margin-top: 50px;
+        #quitter a{
+
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
+            margin-left: 13%;
+            margin-bottom: 65px;
 
         }
+
+
     </style>
 
     <script defer src="accueil.js" charset="utf-8"></script>
@@ -53,10 +74,16 @@
 
 <body>
 
-    <div id="bandeauHaut"></div>
+    <div id="bandeauHaut">
+        &nbsp
+    </div>
+ 
     <div id="bandeauGauche">
 
         <div id="selectionPage">
+
+            <br>
+            <br>
 
             <a href="" id="Evenement">Évènements</a>
 
@@ -69,15 +96,14 @@
             <a href="">Témoins JAVA</a>
 
         </div>
+
         <div id="quitter">
-            <tr>
-                <td>
+            
+                
                     <a href="">Retour Acceuil</a>
-                </td>
-                <td>
+           
                     <a href="">Déconnexion</a>
-                </td>
-            </tr>
+    
         </div>
     </div>
 
