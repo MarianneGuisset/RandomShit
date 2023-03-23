@@ -1,40 +1,115 @@
-<meta charset="utf-8">
-
 <style>
 
-<title>MenuDemandes</title>
-  <style>
-      body {
-              background-color: #060522;
-              color: white;
-              overflow: hidden;
-           }
+    body {
+        background-color: #060522;
+        color: white;
+        overflow: hidden;
+        }
 
-      #logo
-      {
-      	display:flex;
-      	justify-content:center;
-      }
+    #bandeauGauche {
 
-  </style>
+        height: 100vmax;
+        background-color: rgb(8, 8, 14);
+        width: 150px;
+
+    }
+
+    #bandeauDroit {
+
+      display: flex;
+      justify-content:  space-around;
+
+    }
+
+    #selectionPage {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        margin-left: -10px;
+
+    }
+
+    #selectionPage a {
+
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 13%;
+        margin-top: 60x;
+        margin-bottom: 40px;
+
+    }
+
+    #selectionPage a #Evenement {
+
+        margin-top: 50px;
+
+    }
+</style>
 
 
-  <table >
-      <thead>
-        <td align="center">Nom</td>
-        <td align="center">Prénom</td>
-        <td align="center">Description de la demande</td>
-        <td align="center">Montant de la demande</td>
-        <td align="center">Statut de la demande</td>
-      </thead>
+<head>
+    <meta charset="utf-8">
+    <title>Menu Demandes</title>
+    <script defer src="accueil.js" charset="utf-8"></script>
+</head>
 
-     <body id="logo">
-       <tr>
-         <td align="center">Ptdr</td>
-         <td align="center">Titouan</td>
-         <td align="center">Je veux des clopes</td>
-         <td align="center">50</td>
-         <td align="center">enAttente<input type="button" id="btnmodifier" value="Modifier"><input type="button" id="btneffacer" value="Effacer"></td>
-       </tr>
-     </body>
-  </table>
+<body>
+
+    <div id="bandeauGauche">
+
+        <div id="selectionPage">
+
+            <a href="" id="Evenement">Évènements</a>
+
+            <a href="">Fidèles</a>
+
+            <a href="">Demandes</a>
+
+            <a href="">Forum / FAQ</a>
+
+            <a href="">Témoins JAVA</a>
+
+        </div>
+        <div id="quitter">
+            <tr>
+                <td>
+                    <a href="">Retour Acceuil</a>
+                </td>
+                <td>
+                    <a href="">Déconnexion</a>
+                </td>
+            </tr>
+        </div>
+
+    </div>
+
+    <div>
+        <h1> Menu des demandes </h1>
+
+        <table align="center">
+            <thead>
+              <td align="center">Nom</td>
+              <td align="center">Prénom</td>
+              <td align="center">Description de la demande</td>
+              <td align="center">Montant de la demande</td>
+              <td align="center">Statut de la demande</td>
+            </thead>
+
+           <body id="bandeauDroit">
+             <tr>
+               <td align="center">Ptdr</td>
+               <td align="center">Titouan</td>
+               <td align="center">Je veux des clopes</td>
+               <td align="center">50</td>
+               <td align="center">enAttente<input type="button" id="btnmodifier" value="Modifier"><input type="button" id="btneffacer" value="Effacer"></td>
+             </tr>
+           </body>
+        </table>
+
+    </div>
+
+</body>
