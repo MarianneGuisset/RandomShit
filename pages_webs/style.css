@@ -12,12 +12,6 @@ body {
     overflow: hidden;
 }
 
-.form {
-    height: 100vh;
-    align-items: center;
-    align-content: center ;
-}
-
 .inputs{
     display: flex;
     flex-direction: column;
@@ -25,7 +19,7 @@ body {
     justify-content: center;
 }
 
-.buttons{
+.buttons, .buttonDon{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,16 +37,28 @@ body {
     cursor: pointer;
 }
 
-input[type="login"], input[type="password"]{
+.inputs input{
     color: #0b795a;
 }
 
-input[type="submit"] {
-    margin-top: 20px;
-    color: white;
-  }
+.labels{
+    font-family: monospace;
+    font-size: 18px;
+}
 
-  input[type="button"] {
+.buttons input{
     margin-top: 20px;
     color: white;
-  }
+}
+
+.buttonDon input{
+    margin: 10px;
+    padding: 10px 20px;
+    border: white;
+    border-radius: 4px;
+    background-color: #0dc407ce;
+
+    font-family: monospace;
+    font-size: 16px;
+    cursor: pointer;
+}
