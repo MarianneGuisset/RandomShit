@@ -16,7 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .buttons, .buttonDon{
@@ -43,7 +42,7 @@ body {
 
 .labels{
     font-family: monospace;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .buttons input{
@@ -54,11 +53,19 @@ body {
 .buttonDon input{
     margin: 10px;
     padding: 10px 20px;
-    border: white;
+    border: solid #dfca14 1px;
+    color: white;
     border-radius: 4px;
-    background-color: #0dc407ce;
+    background-color: #060522;
 
     font-family: monospace;
     font-size: 16px;
     cursor: pointer;
+}
+
+.buttonDon input:hover{
+    color:black;
+    background-color: #dfca14;
+    box-shadow: 0 5px 20px #dfca14;
+    transform: scale(1.2);
 }
