@@ -1,0 +1,64 @@
+body{
+    font-family: monospace;
+    background-color: #060522;
+    overflow: hidden;
+    margin: 0;
+}
+
+ul{
+    padding: 10px;
+    list-style-type: none;
+}
+ul li{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#img{
+    width:15px;
+}
+
+#line{
+    width: 90px;
+    margin: auto;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+#navbar{
+    background-color: #1D1F28;
+    width: 160px;
+    height: 100%;
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+}
+
+#logo, #profil{
+    display: flex;
+
+}
+
+#logo{
+    height: 10%;
+}
+
+#profil{
+    height: 15%
+}
+
+#pages{
+    height: 30%
+}
+#pages ul li{
+    height: 33%;
+}
+
+#faq, #quitter{
+    height: 20%
+}
+#faq ul li, #quitter ul li{
+    height: 50%;
+}
