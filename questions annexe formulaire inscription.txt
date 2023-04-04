@@ -2,19 +2,19 @@ Suite du formulaire d'inscription:
 
 Quelle est votre légume préféré ?
 
-	-patate
-	-artichaut
-	-steak
+	1-patate
+	2-artichaut
+	3-steak
 
 
 
 
 Vous croisez dans la rue une personne affamée qui vous demande poliment un morceau du sandwitch que vous mangez, vous:
 
-	-l'ignorez
-	-lui cédez un morceau de sandwitch
-	-lui dites que vous êtes désolé mais que vous n'avez pas de sanwitch sur vous
-	-le frappez violemment jusqu'à ce qu'il arrête de bouger
+	1-l'ignorez
+	2-lui cédez un morceau de sandwitch
+	3-lui dites que vous êtes désolé mais que vous n'avez pas de sandwitch sur vous
+	4-le frappez violemment jusqu'à ce qu'il arrête de bouger
 
 
 
@@ -26,25 +26,25 @@ Trouvez vous que la démonstration suivante est pertinente ?
  plus il y a de trous, moins il y a de gruyère;
  Donc plus il y a de gruyère, moins il y a de gruyère."
 
- 	-Oui
- 	-Non
+ 	1-Oui
+ 	2-Non
 
 
 
 
 Si pour survivre vous n'aviez qu'une vache pour vous nourrir, combien de temps pensez vous que vous puissiez survivre?
 
-	- 5 minutes
-	- 6 jours
-	- 7 semaines
-	- jusqu'à votre mort
+	1- 5 minutes
+	2- 6 jours
+	3- 7 semaines
+	4- jusqu'à votre mort
 
 
 
 
-Selon Descartes la paroles précèdes l'acte. Dans cette logique de raisonnement, pensez vous que le libre arbitre face à une situation dont les possibilités d'actions sont contraintes constitue un élément décisif, ou du moins pertinent, dans la résolution d'un dilemme dis "insolvable" ?
+Selon Descartes la paroles précède l'acte. Dans cette logique de raisonnement, pensez vous que le libre arbitre face à une situation dont les possibilités d'actions sont contraintes constitue un élément décisif, ou du moins pertinent, dans la résolution d'un dilemme dit "insolvable" ?
 
-	-Oui
-	-Non
-	-Oui mais ça dépend
-	-Non car le libre arbitre se définit par une pleine conscience éclairée de la possibilité de ses actes et de la capacité à mobiliser ses propres ressources intellectuelles et physiques pour la résolution d'un problème. De ce fait une action contrainte échappe totalement au libre arbitre car celui ci est alors dépourvu de son essence première.
+	1-Oui
+	2-Non
+	3-Oui mais ça dépend
+	4-Non car le libre arbitre se définit par une pleine conscience éclairée de la possibilité de ses actes et de la capacité à mobiliser ses propres ressources intellectuelles et physiques pour la résolution d'un problème. De ce fait une action contrainte échappe totalement au libre arbitre car celui ci est alors dépourvu de son essence première.
