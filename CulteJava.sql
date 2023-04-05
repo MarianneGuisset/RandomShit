@@ -1,5 +1,5 @@
-INSERT INTO `tapoteur` (`rang_tapoteur`, `numero`, `voie`, `cp`, `ville`, `pays`, `date_adhesion`, `login`, `password`, `prenom`, `nom`, `somme_don`, `image_profil`, `all_dons`) VALUES
-('grandDev', '12', 'rue rouget', '31100', 'toulouse', 'france', '2023-01-19', 'dev', 'azerty', 'Dave', 'Davinson', 0, 'assets/Photos/GrandDev.PNG', 1139);
+INSERT INTO `tapoteur` (`rang_tapoteur`, `numero`, `voie`, `cp`, `ville`, `pays`, `date_adhesion`, `login`, `password`, `prenom`, `nom`, `somme_don`, `image_profil`, `all_dons`, `argent_vole`) VALUES
+('grandDev', '12', 'rue rouget', '31100', 'toulouse', 'france', '2023-01-19', 'dev', 'azerty', 'Dave', 'Davinson', 0, 'assets/Photos/GrandDev.PNG', 1139, 0);
 
 INSERT INTO `tapoteur` (`rang_tapoteur`, `numero`, `voie`, `cp`, `ville`, `pays`, `date_adhesion`, `login`, `password`, `prenom`, `nom`, `somme_don`, `image_profil`) VALUES
 ('compileur', '12', 'rue rouget', '31100', 'toulouse', 'france', '2023-01-19', 'compil', 'azerty', 'Isabelle', 'Groin', 0, 'assets/Photos/IsabelleGroin.PNG'),
