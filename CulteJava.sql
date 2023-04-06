@@ -33,7 +33,7 @@ INSERT INTO `tapoteur` (`rang_tapoteur`, `numero`, `voie`, `cp`, `ville`, `pays`
 ('fidele','12', 'rue rouget', '31100', 'toulouse', 'france', '2023-01-19', 'soso12', 'gardien', 'Solange','Gardien', 35, 'assets/Photos/SolangeGardien.PNG');
 
 INSERT INTO `evenement` (`activite`, `date_event`, `lieu`, `nom`) VALUES
-('rassemblement', '2023-09-16', 'Toulouse', 'Anniversaire de la compileuse Marianne Guisset.'),
-('promotion', '2023-05-07', 'Bordeaux', "Passation de pouvoir du Grand Dev."),
-('promotion', '2023-05-29', 'Paris', 'Promotion du fidèle Remy Figuemiraisin.'),
-('pelerinnage', '2023-12-15', 'Paris', 'Pelerinnage.');
+('rassemblement', '2023-09-16', 'Toulouse', 'Anniversaire de la compileuse Marianne Guisset'),
+('promotion', '2023-05-07', 'Bordeaux', "Passation de pouvoir du Grand Dev"),
+('promotion', '2023-05-29', 'Paris', 'Promotion du fidèle Remy Figuemiraisin'),
+('pelerinnage', '2023-12-15', 'Paris', 'Pelerinnage');
